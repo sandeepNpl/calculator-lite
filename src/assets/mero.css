@@ -1,0 +1,125 @@
+.main{
+  background-color: #000807;
+  border-radius: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:300px;
+}
+
+.result{
+  font-size: 5rem;
+  width:270px;
+  border: none;
+  background-color: #252525;
+  color: #fff;
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top:100px;
+  border-top-right-radius:15px;
+  border-top-left-radius:15px;
+}
+
+button{
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    border: 1px solid #000807;
+    background-color: #0a181e;
+    font-size: 22px;
+    color:white;
+}
+.operator1{
+  font-size:35px;
+  background-color:#0c4346;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.operator2{
+  background-color:#0c4345;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.operator3{
+  background-color:#115459;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.operator4{
+  background-color:#115459;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+
+}
+.button1{
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.button2{
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start:2;
+  grid-column-end:3;
+}
+.button3{
+  grid-row-start: 2;
+  grid-row-end:3;
+  grid-column-start:3;
+  grid-column-end:4;
+}
+.button4{
+  grid-row-start: 3;
+  grid-row-end:4;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+.button5{
+  grid-row-start:3;
+  grid-row-end:4;
+  grid-column-start:2;
+  grid-column-end:3;
+
+}
+.button6{
+  grid-row-start:3;
+  grid-row-end:4;
+  grid-column-start:3;
+  grid-column-end:4;
+}
+.button7{
+  grid-row-start:4;
+  grid-row-end:5;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+
+.calculator-button{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.equal-sign {
+  background-color: #28ab9f;
+  color: #fff;
+  grid-row-start: 5;
+  grid-row-end:6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.all-clear{
+  grid-row-start: 1;
+  grid-row-end:2;
+}

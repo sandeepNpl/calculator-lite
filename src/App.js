@@ -30,7 +30,7 @@ function App() {
         <button type="button" class="decimal" value=".">.</button>
         <button type="button" class="all-clear" value="all-clear">C</button>
 
-        <button type="button" class="equal-sign" value="=">==</button>
+        <button type="button" class="equal-sign" value="=">=</button>
         </div>
       </div>
   </div>
